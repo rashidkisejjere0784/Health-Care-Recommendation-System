@@ -6,7 +6,7 @@ from recommendation_algorithms import get_recommendation_nn
 
 
 def get_recommendation(services, location, payment_method, rating, operating_time, care_system):
-    data_df = pd.read_csv("Hospital Data.csv")
+    data_df = pd.read_csv("Data/Hospital Data.csv")
     matrices = get_matrices()
     service_matrix = matrices['service']
     location_matrix = matrices['location']
