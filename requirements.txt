@@ -2,4 +2,4 @@ intellikit
 streamlit
 pandas
 scikit-learn
-streamlit-navidation-bar
+streamlit-navigation-bar
